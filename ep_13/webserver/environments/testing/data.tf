@@ -17,4 +17,4 @@ data "aws_ami" "ubuntu" {
 
 data "aws_vpc" "selected" {
   default = true
-}
+ }

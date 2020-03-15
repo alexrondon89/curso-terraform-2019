@@ -1,5 +1,5 @@
 module "webserver" {
-	source = "/Users/cristhianalexanderrondon/Desktop/terraform/practica-arranz/practica-modulo-con-github"
+	source = "git::github.com/alexrondon89/terraform-module-ec2-with-eip.git?ref=v1.0.1"
 	  project_name = "pratica modulo"
   vpc_id = data.aws_vpc.selected.id
   environment = "testing"
